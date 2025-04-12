@@ -18,3 +18,7 @@ In the screenshot below, I have set the default sample rate as 44100 and selects
 Restart pipewire service after running the python script to reflect the changes
 
 `systemctl restart --user pipewire.service pipewire-pulse.service`
+
+You can delete the git folder as it is no longer required
+
+`rm -rf pipewire_change_sample_rate`
