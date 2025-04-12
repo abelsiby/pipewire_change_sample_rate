@@ -25,7 +25,7 @@ def get_default_and_other_sample_rates(default_samp):
             integer_list = [int(n) for n in nums.split(" ")]
             integer_list.append(default_samp)
             integer_list.sort()
-            print("List of sample rates:", integer_list)
+            print("List of other sample rates:", integer_list)
             break
 
         except ValueError:
@@ -34,7 +34,7 @@ def get_default_and_other_sample_rates(default_samp):
     return integer_list
 
 
-def create_configs_from_list(def_rate, rates_list, pipewire_conf="~/.config/pipewire/pipewire.conf.d/pipewire-hifi.conf", client_conf="~./config/pipewire/client.conf.d/client-hifi.conf"):
+def create_configs_from_list(def_rate, rates_list, pipewire_conf="~/.config/pipewire/pipewire.conf.d/pipewire-hifi.conf", client_conf="~/.config/pipewire/client.conf.d/client-hifi.conf"):
     """
     Creates a .conf file where the 'default.clock.allowed-rates' values
     are taken from the provided data_list.
