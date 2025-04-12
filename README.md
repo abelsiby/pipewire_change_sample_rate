@@ -7,7 +7,8 @@ Once the script is run and the sample rates are passed, pipewire will match the 
 Run:
 
 `git clone git@github.com:abelsiby/pipewire_change_sample_rate.git && cd ~/pipewire_change_sample_rate` 
-**(assuming you are running the terminal from the home directory)
+
+*(assuming you are running the terminal from the home directory)
 
 `python change_sample_rate.py`
 
