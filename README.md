@@ -1,5 +1,7 @@
+
 # Change DAC output sample rates
 
+A simple python script that creates /client.conf.d/client-hifi.conf and /pipewire.conf.d/pipewire-hifi.conf files in ~/.config/pipewire/ directory
 Once the script is run and the sample rates are passed, pipewire will match the sample rate of output dac to that of the audio file.
 
 Run:
