@@ -24,3 +24,8 @@ Restart pipewire service after running the python script to reflect the changes
 You can delete the git folder as it is no longer required
 
 `rm -rf pipewire_change_sample_rate`
+
+
+Use pw-top to verify the changes
+
+`pw-top`
